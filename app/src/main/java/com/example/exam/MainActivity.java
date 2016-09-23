@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void count5(View view) {
+        (new CountTo((TextView)findViewById(R.id.count5))).execute(5);
     }
 
     public void normal(View view) {
