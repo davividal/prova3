@@ -3,10 +3,10 @@ package com.example.exam;
 import android.os.AsyncTask;
 import android.widget.TextView;
 
-public class Sleep5 extends AsyncTask<Integer, Integer, Integer> {
+public class SleepFor extends AsyncTask<Integer, Integer, Integer> {
     private TextView status;
 
-    public Sleep5(TextView status) {
+    public SleepFor(TextView status) {
         this.status = status;
     }
 

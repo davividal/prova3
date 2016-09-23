@@ -1,6 +1,5 @@
 package com.example.exam;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sleep5(View view) {
-        (new Sleep5((TextView)findViewById(R.id.sleep5))).execute(5);
+        (new SleepFor((TextView)findViewById(R.id.sleep5))).execute(5);
     }
 
     public void count5(View view) {
