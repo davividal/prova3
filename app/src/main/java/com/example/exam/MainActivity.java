@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sleep5(View view) {
+        (new Sleep5((TextView)findViewById(R.id.sleep5))).execute(5);
     }
 
     public void count5(View view) {
