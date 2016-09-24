@@ -18,7 +18,7 @@ public class CountTo extends AsyncTask<Integer, Integer, Integer> {
 
         for (Integer i = 1; i <= countTo; i++) {
             try {
-                Thread.sleep(i * 1000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
